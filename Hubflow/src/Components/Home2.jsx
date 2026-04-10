@@ -41,6 +41,11 @@ const cards = [
 ];
 
 const Home2 = () => {
+  const innerFramePath =
+    "M 66 72 L 874 90 Q 932 92 956 130 L 988 566 Q 994 614 962 630 Q 950 634 926 634 H 67 Z";
+  const outerFramePath =
+    "M 70 65 L 878 94 Q 936 96 962 138 L 994 570 Q 1002 622 970 638 Q 958 642 932 642 H 70";
+
   return (
     <main className="home2-hero">
       <div className="home2-bg-circle" aria-hidden="true" />
@@ -50,38 +55,33 @@ const Home2 = () => {
           <div className="home2-frame-wrap">
             <svg
               className="home2-device-svg"
-              viewBox="0 0 980 640"
+              viewBox="0 0 1080 670"
               aria-label="Dashboard"
               role="img"
             >
               <defs>
                 <clipPath id="home2-device-clip">
-                  <rect x="18" y="18" width="944" height="604" rx="34" ry="34" />
+                  <path d={innerFramePath} />
                 </clipPath>
               </defs>
 
               <image
                 href={hubflowImg}
-                x="18"
-                y="18"
-                width="944"
-                height="604"
-                preserveAspectRatio="xMinYMin slice"
+                x="58"
+                y="46"
+                width="990"
+                height="620"
+                preserveAspectRatio="xMinYMid slice"
                 clipPath="url(#home2-device-clip)"
               />
-              <rect
-              x="10"
-              y="18"
-              width="944"
-              height="604"
-              rx="38"
-              ry="38"
-              fill="none"
-              stroke="#2b2f36"
-              strokeWidth="16"
-              strokeLinejoin="round"
-              strokeLinecap="round"
-/>
+              <path
+                d={outerFramePath}
+                fill="none"
+                stroke="#2b2f36"
+                strokeWidth="14"
+                strokeLinejoin="round"
+                strokeLinecap="round"
+              />
               
             </svg>
           </div>

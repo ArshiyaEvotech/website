@@ -39,7 +39,7 @@ const Home9 = () => {
         <div className="testimonial-header">
           <div className="header-text">
             <span className="testimonial-badge">Testimonial 🔥</span>
-            <h2 className="testimonial-title">Testimonials <br/> Beloved Clients.</h2>
+            <h2 className="testimonial-title">Testimonials Beloved Clients.</h2>
           </div>
           <div className="slider-controls">
             <button

@@ -61,7 +61,7 @@ const Footer = () => {
               <span className="contact-icon">✉</span>
               <div>
                 <p>contact.tech@gmail.com</p>
-                <p>info@Niotech.com</p>
+                <p>info@hubflow.com</p>
               </div>
             </div>
             <div className="footer-contact-row">
@@ -75,7 +75,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-bottom">
-          <p>Copyright © Niotech All Rights Reserved</p>
+          <p>Copyright © hubflow All Rights Reserved</p>
           <div className="footer-socials">
             <span>f</span>
             <span>t</span>
