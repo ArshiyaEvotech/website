@@ -3397,4 +3397,117 @@ hr { border: 0; border-top: 1px solid #f3f0ff; margin-bottom: 25px; }
   }
 }
 
+/* Focused fixes for Home1, Home5 pricing button, and Home6 */
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 44px 16px 56px;
+    min-height: auto;
+  }
+
+  .content-grid {
+    grid-template-columns: 1fr;
+    padding-left: 0;
+    padding-right: 0;
+    gap: 28px;
+  }
+
+  .hero-section .text-area {
+    grid-column: auto;
+    max-width: 100% !important;
+  }
+
+  .hero-section .title {
+    font-size: clamp(2rem, 8.5vw, 3rem);
+    max-width: 100%;
+  }
+
+  .hero-section .subtext {
+    max-width: 100%;
+  }
+
+  .mockup-area {
+    grid-column: auto;
+    min-width: 0;
+    justify-content: center;
+  }
+
+  .dashboard-offset-container {
+    width: min(100%, 560px);
+  }
+
+  .phone-mockup {
+    width: clamp(96px, 22vw, 140px);
+    left: -28px;
+    bottom: -18px;
+  }
+
+  .pricing-grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+  }
+
+  .pricing-card {
+    width: 100%;
+    max-width: 520px;
+  }
+
+  .plan-btn {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    border-radius: 0 0 20px 20px;
+    align-self: stretch;
+  }
+
+  .home6-wrapper {
+    padding: 48px 16px;
+  }
+
+  .home6-container {
+    padding: 36px 18px;
+    border-radius: 24px;
+    gap: 20px;
+  }
+
+  .stat-item {
+    flex: 1 1 100%;
+    min-width: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section {
+    padding: 36px 14px 48px;
+  }
+
+  .hero-section .title {
+    font-size: clamp(1.8rem, 9vw, 2.3rem);
+  }
+
+  .hero-section .btn-primary,
+  .hero-section .btn-secondary {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .pricing-card {
+    max-width: 100%;
+  }
+
+  .plan-btn {
+    padding: 16px 18px;
+  }
+
+  .home6-wrapper {
+    padding: 32px 14px;
+  }
+
+  .home6-container {
+    padding: 32px 14px;
+    border-radius: 20px;
+  }
+}
+
 
