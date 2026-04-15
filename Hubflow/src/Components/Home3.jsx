@@ -1,6 +1,5 @@
 import React from 'react';
 import { RefreshCcw, Globe, CheckCircle } from 'lucide-react';
-import '../assets/App.css';
 
 const Home3 = () => {
   const features = [

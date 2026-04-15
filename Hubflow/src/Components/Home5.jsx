@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import '../assets/App.css';
 
 const Home5 = () => {
   const [isYearly, setIsYearly] = useState(false);

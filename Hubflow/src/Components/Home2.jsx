@@ -1,6 +1,5 @@
 ﻿import React from 'react';
 import { ArrowRight, BadgeDollarSign, ClipboardList, FilePenLine, Flame } from 'lucide-react';
-import '../assets/App.css';
 import hubflowImg from '../assets/hubflow.png';
 
 const featureList = [

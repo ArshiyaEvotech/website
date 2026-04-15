@@ -1,5 +1,4 @@
 import React from 'react';
-import '../assets/App.css';
 import tabletImg from '../assets/tablet.png';
 
 const Home7 = () => {
@@ -50,9 +49,15 @@ const Home7 = () => {
             {featureList.map((item, index) => (
               <div key={index} className="feature-row">
                 <div className="icon-container">
-                  <div className="hexagon">
-                    <div className="dot"></div>
-                  </div>
+                  <svg
+                    className="hexagon"
+                    viewBox="0 0 100 100"
+                    aria-hidden="true"
+                    focusable="false"
+                  >
+                    <polygon points="50,6 88,28 88,72 50,94 12,72 12,28" />
+                    <circle className="dot" cx="50" cy="50" r="12" />
+                  </svg>
                 </div>
                 <div className="text-container">
                   <h3>{item.title}</h3>

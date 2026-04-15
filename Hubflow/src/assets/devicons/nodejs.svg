@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="Node.js">
+  <rect width="96" height="96" rx="22" fill="#3c873a"/>
+  <path d="M48 18 71 31v27L48 78 25 58V31z" fill="#fff" opacity="0.16"/>
+  <path d="M48 24 66 34v22L48 66 30 56V34z" fill="#fff"/>
+  <path d="M43 37h10c5 0 8 3 8 7 0 3-2 6-5 7l6 9h-8l-5-8h-2v8h-6V37Zm6 10h3c2 0 4-1 4-3s-2-3-4-3h-3v6z" fill="#3c873a"/>
+</svg>

@@ -1,25 +1,36 @@
 import React, { useState } from 'react';
-import '../assets/App.css';
+import html5Icon from '../assets/devicons/html5.svg';
+import sassIcon from '../assets/devicons/sass.svg';
+import reactIcon from '../assets/devicons/react.svg';
+import nextjsIcon from '../assets/devicons/nextjs.svg';
+import css3Icon from '../assets/devicons/css3.svg';
+import javascriptIcon from '../assets/devicons/javascript.svg';
+import typescriptIcon from '../assets/devicons/typescript.svg';
+import nodejsIcon from '../assets/devicons/nodejs.svg';
+import pythonIcon from '../assets/devicons/python.svg';
+import mongodbIcon from '../assets/devicons/mongodb.svg';
+import postgresqlIcon from '../assets/devicons/postgresql.svg';
+import dockerIcon from '../assets/devicons/docker.svg';
 
 const Home8 = () => {
   const [activeTab, setActiveTab] = useState('frontend');
 
   const techData = {
     frontend: [
-      { name: "HTML5", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
-      { name: "Sass", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" },
-      { name: "React", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
-      { name: "Next.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" },
-      { name: "CSS3", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
-      { name: "JavaScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
-      { name: "TypeScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" },
+      { name: "HTML5", icon: html5Icon },
+      { name: "Sass", icon: sassIcon },
+      { name: "React", icon: reactIcon },
+      { name: "Next.js", icon: nextjsIcon },
+      { name: "CSS3", icon: css3Icon },
+      { name: "JavaScript", icon: javascriptIcon },
+      { name: "TypeScript", icon: typescriptIcon },
     ],
     backend: [
-      { name: "Node.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
-      { name: "Python", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
-      { name: "MongoDB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
-      { name: "PostgreSQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" },
-      { name: "Docker", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
+      { name: "Node.js", icon: nodejsIcon },
+      { name: "Python", icon: pythonIcon },
+      { name: "MongoDB", icon: mongodbIcon },
+      { name: "PostgreSQL", icon: postgresqlIcon },
+      { name: "Docker", icon: dockerIcon },
     ]
   };
 

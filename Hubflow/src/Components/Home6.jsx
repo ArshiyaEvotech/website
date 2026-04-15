@@ -1,6 +1,4 @@
 import React from 'react';
-import '../assets/App.css';
-
 
 const StatItem = ({ number, label }) => (
   <div className="stat-item">

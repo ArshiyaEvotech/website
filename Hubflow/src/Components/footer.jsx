@@ -1,5 +1,4 @@
 ﻿import React from 'react';
-import '../assets/App.css';
 import logoHub from '../assets/logo-hub.png';
 
 const Footer = () => {

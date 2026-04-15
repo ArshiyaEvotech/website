@@ -1,5 +1,4 @@
 ﻿import React, { useState } from 'react';
-import '../assets/App.css';
 // Ensure these paths match your project structure
 import testimonialPerson from '../assets/picture.png'; 
 
@@ -34,8 +33,6 @@ const Home9 = () => {
   return (
     <section className="testimonial-section">
       <div className="testimonial-container">
-        
-        {/* Header and Navigation */}
         <div className="testimonial-header">
           <div className="header-text">
             <span className="testimonial-badge">Testimonial 🔥</span>
@@ -57,7 +54,6 @@ const Home9 = () => {
           </div>
         </div>
 
-        {/* Card Slider */}
         <div className="testimonial-card-window">
           <div 
             className="testimonial-track" 
@@ -65,8 +61,6 @@ const Home9 = () => {
           >
             {slides.map((item, i) => (
               <div className="testimonial-slide" key={i}>
-                
-                {/* Left Side: Content */}
                 <div className="slide-content-left">
                   <p className="testimonial-text">"{item.text}"</p>
                   
@@ -81,11 +75,9 @@ const Home9 = () => {
                   </div>
                 </div>
 
-                {/* Right Side: Image */}
                 <div className="slide-image-right">
                   <img src={testimonialPerson} alt={item.name} />
                 </div>
-
               </div>
             ))}
           </div>

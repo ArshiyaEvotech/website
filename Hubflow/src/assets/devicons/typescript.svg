@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="TypeScript">
+  <rect width="96" height="96" rx="22" fill="#3178c6"/>
+  <path d="M24 18h48l-4 46-20 6-20-6-4-46Z" fill="#fff" opacity="0.14"/>
+  <path d="M32 30h32l-3 33-13 4-13-4-3-33Z" fill="#fff"/>
+  <path d="M41 38h14v6h-4v15h-6V44h-4v-6zm15 6h7v4h-7v-4zm0 8h7v10l-3 2-4-1v-5h4v-2h-4v-4z" fill="#3178c6"/>
+</svg>

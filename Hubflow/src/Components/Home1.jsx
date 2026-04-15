@@ -1,6 +1,4 @@
 import React from 'react';
-import '../assets/App.css';
-
 import dashboardImg from '../assets/dashboard-mockup.png';
 import phoneImg from '../assets/phone-mockup.png';
 

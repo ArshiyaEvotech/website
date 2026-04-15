@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="Next.js">
+  <rect width="96" height="96" rx="22" fill="#111"/>
+  <path d="M28 66V30h6l17 23V30h6v36h-6L34 43v23z" fill="#fff"/>
+  <path d="M70 30h6L52 70h-6z" fill="#fff" opacity="0.9"/>
+</svg>

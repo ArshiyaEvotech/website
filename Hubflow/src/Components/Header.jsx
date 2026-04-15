@@ -1,5 +1,4 @@
 import React from 'react';
-import '../assets/App.css'; 
 import logoImg from '../assets/logo-hub.png'; 
 import { ChevronDown, MoveRight } from 'lucide-react';
 

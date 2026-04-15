@@ -1,5 +1,4 @@
 import React from "react";
-import "../assets/App.css";
 import statisticsImg from '../assets/statistics-chart.png';
 
 const Home4 = () => {
