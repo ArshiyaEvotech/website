@@ -1202,7 +1202,7 @@ hr { border: 0; border-top: 1px solid #f3f0ff; margin-bottom: 25px; }
 }
 
 .plan-btn {
-  width: 127%;
+  width: 135%;
   padding: 18px 18px;
   margin-top: 0px;
   margin-bottom:-40px;
@@ -2862,7 +2862,11 @@ hr { border: 0; border-top: 1px solid #f3f0ff; margin-bottom: 25px; }
   }
 
   .btn-group {
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    width: 100%;
+    max-width: 100%;
   }
 
   .mockup-area {
@@ -2948,6 +2952,7 @@ hr { border: 0; border-top: 1px solid #f3f0ff; margin-bottom: 25px; }
 
   .pricing-card {
     max-width: 100%;
+    padding: 24px 14px 0;
   }
 
   .home6-wrapper {
@@ -2959,10 +2964,12 @@ hr { border: 0; border-top: 1px solid #f3f0ff; margin-bottom: 25px; }
     padding: 36px 18px;
     border-radius: 24px;
     gap: 20px;
+    justify-content: space-between;
   }
 
   .stat-item {
-    flex: 1 1 100%;
+    flex: 1 1 calc(50% - 12px);
+    min-width: 140px;
   }
 
   .home7-section {
@@ -3102,7 +3109,13 @@ hr { border: 0; border-top: 1px solid #f3f0ff; margin-bottom: 25px; }
   }
 
   .btn-group {
-    gap: 8px;
+    gap: 10px;
+    max-width: 100%;
+  }
+
+  .hero-section .btn-primary,
+  .hero-section .btn-secondary {
+    width: 100%;
   }
 
   .hero-section .btn-primary,
@@ -3111,6 +3124,16 @@ hr { border: 0; border-top: 1px solid #f3f0ff; margin-bottom: 25px; }
   .plan-btn {
     width: 100%;
     justify-content: center;
+  }
+
+  .pricing-card .plan-btn {
+    width: calc(100% + 28px);
+    margin-left: -14px;
+    margin-right: -14px;
+    margin-bottom: 0;
+    border-radius: 0 0 20px 20px;
+    display: block;
+    padding: 16px 18px;
   }
 
   .home2-hero {
@@ -3433,6 +3456,7 @@ hr { border: 0; border-top: 1px solid #f3f0ff; margin-bottom: 25px; }
 
   .dashboard-offset-container {
     width: min(100%, 560px);
+    margin: 0 auto;
   }
 
   .phone-mockup {
@@ -3493,7 +3517,7 @@ hr { border: 0; border-top: 1px solid #f3f0ff; margin-bottom: 25px; }
   }
 
   .pricing-card {
-    max-width: 100%;
+    max-width: 520px;
   }
 
   .plan-btn {
@@ -3507,6 +3531,26 @@ hr { border: 0; border-top: 1px solid #f3f0ff; margin-bottom: 25px; }
   .home6-container {
     padding: 32px 14px;
     border-radius: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pricing-card {
+    width: 100%;
+    max-width: 520px;
+    padding: 24px 14px 0;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .pricing-card .plan-btn {
+    display: block;
+    width: calc(100% + 28px);
+    margin: 18px -14px 0;
+    padding: 16px 18px;
+    border-radius: 0 0 20px 20px;
+    box-sizing: border-box;
+    align-self: stretch;
   }
 }
 
