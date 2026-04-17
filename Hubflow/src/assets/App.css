@@ -564,13 +564,14 @@ body {
   border-radius: 999px;
   font-weight: 600;
   font-size: 14px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  margin-top: 20px;
   font-family: 'Manrope', 'Plus Jakarta Sans', sans-serif;
 }
 
 .home2-heading {
   margin: 0 0 25px;
-  font-size: 24px;
+  font-size: 30px !important;
   font-weight: 600;
   line-height: 1.15;
   letter-spacing: -0.02em;
@@ -790,7 +791,7 @@ body {
 
 .h3-heading {
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 700 !important;
   color: #101010;
   letter-spacing: -1px;
   font-family: 'Manrope', 'Plus Jakarta Sans', sans-serif;
@@ -926,8 +927,8 @@ body {
 
 /* Title */
 .home4 .title {
-  font-size: 24px;
-  font-weight: 800;
+  font-size: 30px;
+  font-weight: 700;
   color: #111827;
   margin-bottom: 30px;
   font-family: 'Manrope', 'Plus Jakarta Sans', sans-serif;
@@ -1095,7 +1096,7 @@ body {
 }
 
 .p-title {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 600;
   color: #1a1a1a;
   margin: 20px 0;
@@ -1593,7 +1594,7 @@ hr { border: 0; border-top: 1px solid #f3f0ff; margin-bottom: 25px; }
 }
 
 .home8-title {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 600;
   color: #1f2937;
   margin: 0 0 26px;
@@ -1737,7 +1738,7 @@ hr { border: 0; border-top: 1px solid #f3f0ff; margin-bottom: 25px; }
 }
 
 .testimonial-title {
-  font-size: clamp(28px, 3vw, 36px);
+  font-size: 30px;
   font-weight: 600;
   color: #111;
   margin-top: 0;
@@ -1997,7 +1998,7 @@ hr { border: 0; border-top: 1px solid #f3f0ff; margin-bottom: 25px; }
 }
 
 .home10-title {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 600;
   color: #1f2937;
   margin: 0;
